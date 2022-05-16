@@ -1,62 +1,86 @@
-# Instructions for development
+<div align="center" width="100%">
+  <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" alt="Express.js Icon" />
+  <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js Icon" />
+  <img src="https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase" alt="Firebase Icon" />
+  <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js Icon" />
+</div>
 
----
+<h1 align="center">Rumble</h1>
 
-## Working on your branch
+<div align="center" width="100%">
+    <img src="https://i.imgur.com/qcG7o3Y.png">
+</div>
 
-The [Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow) assumes *one central repository* and the `main` branch represents the official project history.
+<h4 align="center">Rumble, a mobile food ordering app, done Tinder style.</h4>
 
-Instead of committing directly to your local `main` branch, create a **new** branch to work on a **particular feature**. Feature branches should have *descriptive names* (e.g., "animated-menu-items").
+## Content
+ - [Motivation and Story](#motivation-and-story)
+ - [The Team](#the-team)
+ - [Getting Started](#getting-started)
+ - [Features](#features)
+ - [API Endpoints](#api-endpoints)
+ - [UI / UX](#ui-ux)
 
-Feature branches can (and *should*) be pushed to the central repository (on GitHub). The only *special* branch is `main`. **Don't ever push anything to** `main`! The following is a brief overview of how to do your work:
+## Motivation and Story
+Lorem ipsum set some stuff.
 
-### 1. Start with the main branch
+## The Team
 
-All feature branches are created off the latest code state of a project. Assume that the `main` branch on GitHub is always up-to-date. First, check out the `main` branch on your machine, pull the latest updates, and reset the repo's local copy of `main` to match the latest version:
-```
-git checkout main
-git fetch origin
-git reset --hard origin/main
-```
+### Contributor: Edgar Carrillo
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ecarrillo046/)
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ec-rilo)
+#### UI Specialist | PM | Full-Stack Engineer
 
-### 2. Create a new feature branch
+Insert Description here of what you created does and after that, describe what you did to make it happen.
 
-Use a **separate branch for each feature/issue you work on**. You can create a branch and check it out in one command as follows:
-```
-git checkout -b new-branch-name
-```
+### Contributor: Francesco Garofalo 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/garofalofrancesco/)
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/garofalof)
+#### Full-Stack Engineer
 
-### 3. Update, add, and commit changes
+Insert Description here of what you created does and after that, describe what you did to make it happen.
 
-**On your feature branch**, you can edit, stage, and commit changes as usual.
-```
-git status
-git add some_file
-git commit -m "Some descriptive message--better messages help when we need to undo changes"
-```
+### Contributor: Dennis Cao
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dennisrcao/)
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dennisrcao/)
+#### Product Manager | Full-Stack Engineer 
 
-### 4. Push feature branch to remote (GitHub)
+Insert Description here of what you created does and after that, describe what you did to make it happen.
 
-When ready, push your commits, updating the feature branch on GitHub. It's a good idea to push the feature branch up to the central repository so we can see what you're doing. To push `new-branch-name` to the central repository (GitHub), issue:
-```
-git push -u origin new-branch-name
-```
+### Contributor: Jake Gilfix
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]()
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)]()
+#### Full-Stack Engineer
 
-**NOTE**: The `-u` flag adds the local branch you created in step 2 as a remote tracking branch. After setting up the tracking branch, `git push` can be invoked without any parameters to automatically push the `new-branch-name` branch to the central repo (GitHub).
+Insert Description here of what you created does and after that, describe what you did to make it happen.
 
-### 5. Done implementing the feature? Create a pull request!
+### Contributor: Dong Hyoung Kim 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dong-hyoung-kim/)
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DongHyoungKim)
+#### Full-Stack Engineer
 
-When you've finished implementing and testing the feature your branch was created to work on, create a pull request through GitHub.
+Insert Description here of what you created does and after that, describe what you did to make it happen.
 
-# Running your code
+### Contributor: Daniel Esquivel-Reynoso
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]()
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)]()
+#### Full-Stack Engineer
 
----
+Insert Description here of what you created does and after that, describe what you did to make it happen.
+
+### Contributor: Chris Padovan
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chris-padovan/)
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ChrisPadovan)
+#### Full-Stack Engineer
+
+Insert Description here of what you created does and after that, describe what you did to make it happen.
 
 ## Getting Started
 
+**Git clone repo
 **You will first need to create a `.env.local` file in the project's root directory**. This will store all of the environment variables we need for this project, including the port on which to run the Node.js server as well as all of the set-up for the
-Firebase/Firestore stuff. I will post my `.env.local` file on Discord/Slack so you can copy it. Obviously, this file cannot
-be uploaded to GitHub (it's in the .gitignore for a reason!) because that would allow anyone to access our database (probably not good).
+Firebase/Firestore stuff. 
+
 
 Then, install all the node modules, as usual:
 
@@ -77,9 +101,88 @@ Node.js server listening on port PORT...
 
 Open http://localhost:PORT with your browser to see the result.
 
+## Features
+**Feature 1**
+</br>
+Description of this feature here.
+
+**Feature 2**
+</br>
+Description of this feature here.
+
+## API Endpoints
+
+### `GET /api/users/getFavorites:uid`
+Retrieve a list of favorites for a single user
+
+#### Parameters
+| Parameter  | Type    | Description                                       |
+|------------|---------|---------------------------------------------------|
+| uid        | String | Required ID of the user for which data should be returned. |
+
+### `GET /api/users/getSingleUserInfo/:uid`
+Retrieve a list of preferences for a single user
+
+#### Parameters
+| Parameter  | Type    | Description                                       |
+|------------|---------|---------------------------------------------------|
+| uid        | String | Required ID of the user for which data should be returned. |
+
+### `POST /api/users/addFavorite`
+Add a restaurant to a single user's list of favorite restaurants
+
+#### Parameters
+| Parameter  | Type    | Description                                       |
+|------------|---------|---------------------------------------------------|
+| uid        | String | Required ID of the user for which the favorite restaurant should be added. |
+| restaurantId| Integer | Required ID of the restaurant being added to a user's favorites. |
+
+### `POST /api/users/addPreferences`
+Add preferences to a single user's list of preferences
+
+#### Parameters
+| Parameter  | Type    | Description                                       |
+|------------|---------|---------------------------------------------------|
+| uid        | String | Required ID of the user for which preferences should be added. |
+| cuisine    | String | Type of cuisine being added to a user's preferences. |
+| price      | String | Price range being added to a user's preferences.   |
+
+### `DELETE /api/users/deleteFavorite`
+Delete a restaurant from a single user's list of favorite restaurants
+
+#### Parameters
+| Parameter  | Type    | Description                                       |
+|------------|---------|---------------------------------------------------|
+| uid        | String | Required ID of the user for which the favorite restaurant should be deleted. |
+| restaurantId| Integer | Required ID of the restaurant being deleted from a user's favorites. |
+
+### `GET /api/restaurants`
+Retrieve a list of all restaurants
+
+### `GET /api/restaurants/restaurant`
+Retrieve a single restaurant
+
+#### Parameters
+| Parameter  | Type    | Description                                       |
+|------------|---------|---------------------------------------------------|
+| restaurant | String | Name of the restaurant for which data should be returned. |
+
+
+
+
+
+## UI UX
+
+https://user-images.githubusercontent.com/521934/168444266-15f73cc7-9e8d-4032-8f19-d1ec723eea7f.mp4
+
+
+![All Components (1)](https://user-images.githubusercontent.com/521934/168443490-f6508e42-9e99-4d6e-bf69-adbe4aebae6d.png)
+![Screen Shot 2022-05-14 at 10 57 58 AM](https://user-images.githubusercontent.com/521934/168443364-86316a63-4f54-41c0-9ada-b3686f51b9d0.png)
+
+
 ## Working with Firestore
 
-In order to access the Firestore Database admin panel (really useful for seeing if you're adding/removing data properly or to manually do so), click [here](https://console.firebase.google.com/). I created an account we can all share and will post the credentials in Slack/Discord (feel free to DM me if you need help, obviously). Log in to that account. Navigate to our project (named "Rumble"). In the left sidebar, you should see "Firestore Database". Click that. You should see two collections (as of when I'm writing this): restaurants and users. Again, anything you're unsure about, just ask!
+In order to access the Firestore Database admin panel (really useful for seeing if you're adding/removing data properly or to manually do so), click [here](https://console.firebase.google.com/).
 
 ## Learn More
 
@@ -87,3 +190,4 @@ To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
