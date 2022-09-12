@@ -22,58 +22,45 @@
  - [UI / UX](#ui-ux)
 
 ## Motivation and Story
-Lorem ipsum set some stuff.
+We were tasked to build a Tinder-For-Food app for a client. They specifically wanted to be able to swipe on local restaurants, save favorites, set search preferences, browse ALL local restaurants, and browse the menu of each restaurant. 
 
 ## The Team
+
+### Contributor: Chris Padovan
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chris-padovan/)
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ChrisPadovan)
+#### Full-Stack Engineer | Project Manager
 
 ### Contributor: Edgar Carrillo
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ecarrillo046/)
 [![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ec-rilo)
-#### UI Specialist | PM | Full-Stack Engineer
-
-Insert Description here of what you created does and after that, describe what you did to make it happen.
+#### UI Specialist | Full-Stack Engineer
 
 ### Contributor: Francesco Garofalo 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/garofalofrancesco/)
 [![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/garofalof)
 #### Full-Stack Engineer
 
-Insert Description here of what you created does and after that, describe what you did to make it happen.
-
 ### Contributor: Dennis Cao
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dennisrcao/)
 [![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dennisrcao/)
 #### Product Manager | Full-Stack Engineer 
-
-Insert Description here of what you created does and after that, describe what you did to make it happen.
 
 ### Contributor: Jake Gilfix
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]()
 [![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)]()
 #### Full-Stack Engineer
 
-Insert Description here of what you created does and after that, describe what you did to make it happen.
-
 ### Contributor: Dong Hyoung Kim 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dong-hyoung-kim/)
 [![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DongHyoungKim)
 #### Full-Stack Engineer
-
-Insert Description here of what you created does and after that, describe what you did to make it happen.
 
 ### Contributor: Daniel Esquivel-Reynoso
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]()
 [![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)]()
 #### Full-Stack Engineer
 
-Insert Description here of what you created does and after that, describe what you did to make it happen.
-
-### Contributor: Chris Padovan
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chris-padovan/)
-[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ChrisPadovan)
-#### Full-Stack Engineer
-
-Insert Description here of what you created does and after that, describe what you did to make it happen.
 
 ## Getting Started
 
@@ -182,7 +169,7 @@ https://user-images.githubusercontent.com/521934/168444266-15f73cc7-9e8d-4032-8f
 
 ## Working with Firestore
 
-In order to access the Firestore Database admin panel (really useful for seeing if you're adding/removing data properly or to manually do so), click [here](https://console.firebase.google.com/).
+You will need to add your own Firestore database, adding authentication keys to your repo in a .env.local file. You can then populate your database with restaurants, and log in with your Google account. https://firebase.google.com/products/firestore?gclid=CjwKCAjwsfuYBhAZEiwA5a6CDI802vWIyVqmcr8wf7wGKz7u3A8yr2W1qFb4BvaJNTQkxe04XO_6nxoCPDEQAvD_BwE&gclsrc=aw.ds
 
 ## Learn More
 
